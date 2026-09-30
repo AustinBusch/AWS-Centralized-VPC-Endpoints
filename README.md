@@ -48,3 +48,11 @@ Centralized VPC Endpoints can be deployed in a central network account and used 
 
 The following architecture is a detailed conceptual reference architecture for how shared VPC endpoints can be utilized. 
 
+## Reference Sources
+
+- [Centralized Access to VPC Private Endpoints](https://docs.aws.amazon.com/whitepapers/latest/building-scalable-secure-multi-vpc-network-infrastructure/centralized-access-to-vpc-private-endpoints.html) - AWS Whitepaper on building scalable and secure multi-VPC network infrastructure
+- [VPC Interface Endpoints](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_interface_vpc_endpoints.html) - AWS documentation on interface VPC endpoints
+- [VPC Endpoint Limits](https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-limits-endpoints.html) - AWS VPC PrivateLink service limits and quotas
+- [Gateway Endpoints](https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html) - AWS documentation on gateway VPC endpoints
+- [Sharing Managed Prefix Lists](https://docs.aws.amazon.com/vpc/latest/userguide/sharing-managed-prefix-lists.html) - AWS documentation on sharing managed prefix lists across accounts
+
