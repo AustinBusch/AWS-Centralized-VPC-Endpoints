@@ -42,9 +42,9 @@ Centralized VPC Endpoints can be deployed in a central network account and used 
 5. The Bedrock Runtime endpoint traffic is sent over the AWS Network to the AWS Bedrock Service.  
 
 ## Detailed Architecture
+The following architecture is a detailed conceptual reference architecture for how shared VPC endpoints can be utilized. 
 ![Final Conceptual Architecture](Assets/AWS%20Shared%20VPC%20Endpoints-Final%20Conceptual%20Architecture.gif)
 
-The following architecture is a detailed conceptual reference architecture for how shared VPC endpoints can be utilized. 
 
 ## Reference Sources
 
