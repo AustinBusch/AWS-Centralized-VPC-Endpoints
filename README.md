@@ -23,7 +23,7 @@ Some of the key considerations of Gateway Endpoints:
 - Uses no IP's from your subnets. 
 - Controlled by endpoint policies. 
 
-# Centralized Endpoints
+# Centralized Interface Endpoints
 Interface endpoints can be deployed in a central network account and used by member accounts. 
 ### The Problem
 ![The Problem Design](Assets/AWS%20Shared%20VPC%20Endpoints-The%20Problem%20Design.drawio.png)
