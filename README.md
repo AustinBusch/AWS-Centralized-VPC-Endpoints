@@ -23,17 +23,15 @@ Some of the key considerations of Gateway Endpoints:
 - Uses no IP's from your subnets. 
 - Controlled by endpoint policies. 
 
-# Centralizing Interface Endpoints
-Interface endpoints can be deployed in a central network account and used by member accounts. 
-### The Problem
+# The Problem with Interface Endpoints
 ![The Problem Design](Assets/AWS%20Shared%20VPC%20Endpoints-The%20Problem%20Design.drawio.png)
 
-VPC Interface endpoints require an ENI per AZ, per service type and are billed per hour per AZ per service type with an additional data usage charge. 
+VPC Interface endpoints can be deployed into any AWS account. They require an ENI per AZ, per service type and are billed per hour per AZ per service type with an additional data usage charge. 
 When deploying VPC Endpoints across multiple accounts, large amounts of IP space can be taken up, for example 4 accounts needing a bedrock runtime service in two AZ's would be a total of 8 IP's taken up and hourly charges. 
 
 
 
-### The Solution
+# The Solution: Centralized Interface Endpoints
 Centralized VPC Endpoints can be deployed in a central network account and used by member accounts, reducing the amount of IP's, hourly charges, and endpoint policies across your organization. The example below describes the architecture. 
 
 ![Bedrock Usage](Assets/AWS%20Shared%20VPC%20Endpoints-Bedrock%20Usage.gif)
